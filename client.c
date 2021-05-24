@@ -28,7 +28,7 @@ do{
     printf("\n3. Show daily total income");
     printf("\n4. Exit");
     printf("\nEnter your choise: ");
-    scanf("\%d", &userInput);
+    scanf("%d", &userInput);
     while (getchar() != '\n');
     fflush(stdin);
 
